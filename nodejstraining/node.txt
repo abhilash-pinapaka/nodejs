@@ -1,0 +1,27 @@
+Course content
+
+JavaScript
+1. Setup, Console in Browsers
+2. Variables (var vs let vs const)
+3. Arrays
+4. Functions and types of Functions
+5. Javascript Operations
+6.Control Flow
+    (if..else, switch, for, while, do..while, infinite loops, 
+    for .. in, for .. of, break & continue)
+7. Objects
+8. Prototypes
+9. Prototypical Inheritence
+10. ES6 classes
+11. Fat Arrow
+12. Template Strings
+13. Destructuring
+14. Iterables nad looping
+15. Array of Arrays
+16. Spread and rest operators
+17. Promises
+18. proxies
+20. sets and weaksets
+21. Map and weak Map
+22. Async and Await Flow
+
