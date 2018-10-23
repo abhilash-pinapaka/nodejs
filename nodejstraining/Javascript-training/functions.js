@@ -11,7 +11,7 @@ let run = function move(){
 let move = function(){
     console.log('run');
 };
-
+move()
 // Hoisting
 
 // Arguments
@@ -54,7 +54,7 @@ try{
     console.log(words(1));
 }catch(e){
     // console.log("Error")
-    console.log(e);
+    console.log(e.message);
 }
 
 // Scope - Local vs Global
@@ -67,7 +67,11 @@ function fn(){
     console.log(message);
     console.log(new_msg);
 }
-
+function fun(){
+    for (var i = 0; i<2;i++){
+     console.log(i)}
+     console.log(i)
+     }
 function person(a,b){
     console.log(this,a,b)
 }

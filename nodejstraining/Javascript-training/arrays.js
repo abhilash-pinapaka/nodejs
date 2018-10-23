@@ -10,7 +10,7 @@ Combining arrays
 // Adding elements
 
 const numbers = [3,4];
-
+numbers.splice()
 // Add new elements to the end, beginning or middle of arrays
 numbers.push(5,6) //can pass one or more args, push to add elements to the end of array
 console.log(numbers)
@@ -47,14 +47,14 @@ const course = courses.find(function(course){
 let c = courses.find((course)=>{return course.name ==='node'})
 console.log(course);
 
-const courseInd = courses.findIndex(function(course){
+const courseIndex = courses.findIndex(function(course){
     return course.name === 'node'
 })
 console.log(courseIndex);
 
 // Arrow function or Fat arrow
-const c = courses.find((course) => course.name === 'node');
-console.log(c)
+const cour = courses.find(course => course.name === 'node');
+console.log(cour)
 
 // Removing elements
 const numbrs = [1,2,3,4,5,6]
@@ -119,6 +119,12 @@ courses.sort(function(a,b){
     if (a.name > b.name) return 1;
 
 })
+let courses = [
+    
+    {id : 2, name : "js"},
+    {id : 1, name : "node"},
+    {id : 3, name : "cat"}
+     ]
 
 // filter
 const fil_nums = [1,-1,2,3];
@@ -140,10 +146,10 @@ console.log(arr)
 
 // reducing an array
 
-numbers = [1,2,3,4,5];
-sum = numbers.reduce(function(accumulator,currentValue){
+let numbers1 = [1,2,3,4,5];
+sum = numbers1.reduce(function(accumulator,currentValue){
     return accumulator+currentValue
 },0)
 console.log(sum)
- sum = numbers.reduce((a,v) => a+v)
+ sum = numbers1.reduce((a,v) => a+v)
  
